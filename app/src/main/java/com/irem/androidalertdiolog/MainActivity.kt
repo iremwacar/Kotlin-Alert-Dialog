@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         alert.setNegativeButton("Hayır",object :DialogInterface.OnClickListener{
             override fun onClick(dialog: DialogInterface?, which: Int) {
-                Toast.makeText(this@MainActivity,"Kayıt iptal edildi!",Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, "Kayıt iptal edildi!", Toast.LENGTH_LONG).show()
             }
         })
         alert.show()
